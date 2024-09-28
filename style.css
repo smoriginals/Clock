@@ -1,0 +1,71 @@
+﻿*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-size:18px;
+	font-family:ariel,sans sarif,verdana;
+}
+.clock{
+	height:100vh;
+	width:100vw;
+	background-image:url("ntr.jpg");
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.clockBorder{
+	height:400px;
+	width:400px;
+	border-radius:100%;
+	border:15px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.niddlesS{
+	height:1.5%;
+	width:75%;
+	background-color:red;
+	transform-origin:100%;
+	transform:rotate(90deg);
+	position:relative;
+	left:50px;
+	z-index:3;
+}
+.circel{
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:100%;
+	position:relative;
+	left:130px;
+	top:-5px;
+}
+.back{
+	height:5px;
+	width:35px;
+	background-color:red;
+	position:relative;
+	top:5px;
+}
+.niddlesM{
+	height:1.5%;
+	width:65%;
+	background-color:black;
+	transform-origin:100%;
+	transform:rotate(90deg);
+	position:relative;
+	left:-70px;
+	z-index:1;
+}
+.niddlesH{
+	height:1.5%;
+	width:60%;
+	background-color:blue;
+	transform-origin:100%;
+	transform:rotate(90deg);
+	position:relative;
+	left:-180px;
+	z-index:0;
+}
