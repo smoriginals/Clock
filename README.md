@@ -1,1 +1,1 @@
-[OPEN IN BROWSER](https://smos-github.github.io/Clock/)
+[OPEN IN BROWSER](https://smoriginals.github.io/Clock/)
